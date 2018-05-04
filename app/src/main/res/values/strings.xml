@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">magicapp</string>
+    <string name="dialog_title">Choose name</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_dice_title">Roll the dice</string>
+    <string name="dialog_cancel">Cancel</string>
+
+
+</resources>
