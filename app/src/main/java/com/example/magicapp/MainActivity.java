@@ -1,46 +1,23 @@
 package com.example.magicapp;
-import android.app.Dialog;
-import android.app.DialogFragment;
 import android.content.DialogInterface;
-import android.content.res.Configuration;
-import android.net.Uri;
 import android.os.CountDownTimer;
 import android.os.Handler;
-import android.os.PersistableBundle;
-import android.support.annotation.DrawableRes;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import com.google.android.gms.appindexing.Action;
-import com.google.android.gms.appindexing.AppIndex;
-import com.google.android.gms.appindexing.Thing;
-import com.google.android.gms.common.api.GoogleApiClient;
-
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
-import java.util.Timer;
 
-import static com.example.magicapp.R.drawable.nickel;
 
 public class MainActivity extends AppCompatActivity {
 
